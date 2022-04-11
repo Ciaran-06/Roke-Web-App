@@ -1,0 +1,36 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #111111;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10vh;
+}
+
+.middleButton {
+  display: flex;
+}
+
+.Top {
+  padding-bottom: 10vh;
+}
+
+.Vol {
+  font-size: 2vh ;
+}
+button {
+  height: 17vh;
+  width: 30vw;
+  background-color: #DD0525;
+  border-color: #191919;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
